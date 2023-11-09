@@ -6,7 +6,7 @@ function Login({ setIsLoggedIn }) {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
-  });
+  })
 
   function handleChange(e) {
     setFormData({
